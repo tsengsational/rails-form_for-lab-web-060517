@@ -1,0 +1,6 @@
+<h1>Student Form</h1>
+<%= form_for @student do |f| %>
+  Title: <%= f.text_field :first_name, :html => {:id => "student_first_name"}%>
+  Room Number: <%= f.text_field :last_name, :html => {:id => "student_last_name"} %>
+  <%= f.submit %>
+  <% end %>

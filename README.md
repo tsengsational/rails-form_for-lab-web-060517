@@ -21,7 +21,7 @@ Below is what will be needed for each component of the MVC structure:
 * **Views** - Create a show page for each resource, along with `new` and `edit` forms.
 
 You will also need to create routes for each path mentioned above.
-
+ 
 The tests for this application are located in the `spec/controllers/`, `spec/features/`, and `spec/models/` directories.
 
 
